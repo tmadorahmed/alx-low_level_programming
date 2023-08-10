@@ -1,8 +1,12 @@
 #include <stdio.h>
+
 /**
- * main - this is the main
- * retutn: 0 when sucsse
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ *
  */
+
 int main(void)
 {
 
