@@ -8,7 +8,6 @@
  */
 int main(void)
 {
-	int i;
 	unsigned long f1;
 	unsigned long f2;
 	unsigned long sum;
