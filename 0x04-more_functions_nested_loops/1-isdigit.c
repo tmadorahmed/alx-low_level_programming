@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _isupper - check uppercase letters
- * @c: character to check
+ * _isdigit - checks for characters that are digits
+ * @c: character
  *
  * Return: 0 or 1
  */
@@ -10,7 +10,7 @@
 
 int _isdigit(int c)
 {
-	if (c >= 48 && c <= 57)
+	if (c >= '0' && c <= '9')
 		return (1);
 	else
 		return (0);
