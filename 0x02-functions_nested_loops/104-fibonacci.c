@@ -27,7 +27,7 @@ int numlength(int num)
  */
 int main(void)
 {
-	int count, initielos;
+	int count, initialos;
 	unsigned long int f1 = 1;
 	unsigned long int f2 = 2;
 	unsigned long int sum, mx = 100000000, f1o = 0, f2o = 0, sumo = 0;
@@ -36,11 +36,11 @@ int main(void)
 	{
 		if (f1o > 0)
 			printf("%lu", f1o);
-		initielos = numlength(mx) - 1 - numlength(f1);
-		while (f1o > 0 && initielos > 0)
+		initialos = numlength(mx) - 1 - numlength(f1);
+		while (f1o > 0 && initialos > 0)
 		{
-			printf("%d, ", 0);
-			initielos--;
+			printf("%d", 0);
+			initialos--;
 		}
 		printf("%lu", f1);
 		sum = (f1 + f2) % mx;
