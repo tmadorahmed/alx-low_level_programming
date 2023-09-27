@@ -16,7 +16,7 @@ if (tem == NULL)
 return (0);
 
 *head = tem->next;
-n = tem ->n;
+n = tem->n;
 free(tem);
 return (n);
 }
